@@ -1,0 +1,36 @@
+body{
+    background-image: url("img/pu.png");
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+}
+.header{
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 60px;
+    color: darkblue;
+}
+.link{
+    color: white;
+}
+.sandika{
+    color: red;
+}
+a.sandika:hover{
+    color: blue;
+}
+.mark{
+    text-decoration: none;
+}
+a.mark:hover{
+    background-color: darkblue;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.paragraf1{
+    color: orange;
+    text-align: center;
+}
