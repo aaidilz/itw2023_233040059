@@ -1,191 +1,140 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  /*margin: 0;*/
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1.5;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
 body{
-    background-color: #aeaeae;
-    background-image: url("/latihan/latihan3/img/bg.png");
-    color: #333333;
-    font-family: Arial;
-    background-size: 800px;
-    background-repeat: repeat;
-    background-position: center center;
-
-
+    margin: 0px;
+    background-color: #999;
+}
+.navbar{
+    font-family: system-ui;
+    box-shadow: 0px 1px 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    list-style-type: none;
+  }
+  
+.navbar li {
+    float: left;
+  }
+.navbar li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    transition: 0.3s;
+  }
+.navbar input{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 76px;
+    transition: 0.5s;
+  }
+.navbar input:hover{
+    width: 25%;
+  }
+.navbar li a:hover{
+    background-color: #111;
+}
+.bgimage{
+    background-image: url("../latihan3/img/bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.navigator{
+    padding-top: 15px;
+    font-size: 20px;
+    color: #999;
+    font-family: system-ui;
+    margin: 20px;
+}
+.navigator a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.navigator a:hover{
+    color: darkviolet;
+    font-size: 25px;
+    
 }
 .container{
-    width: 800px;
+    width: 850px;
     margin: auto;
     background-color: white;
+    margin-top: 50px;
 }
-.header{
-    padding: 20px;
-}
-.header .judul{
-    font-size: 40px;
+.judul{
+    margin: 20px;
+    font-size: 45px;
     font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: system-ui;
+    color: #333;
 }
-.header ul li{
-    display: inline;
+.penulis{
+    color: black;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
 }
-.header a{
+.penulis img{
+    border-radius: 50%;
+    width: 7%;
+    margin-left: 10px;
+}
+.penulis .text{
+    margin-left: 10px;
+    font-family: system-ui;
+}
+.penulis .text-nama{
+    color: #999;
+}
+.penulis .text-nama a{
+    color: black;
     text-decoration: none;
-    color: salmon;
-    padding: 3px;
+    font-size: 20px;
+    transition: 0.3s;
 }
-.header a:hover{
-    background-color: lightskyblue;
+.penulis .text-nama a:hover{
+    color: darkviolet;
+    font-size: 25px;
+}
 
-}
-.hero{
+.image1{
     height: 300px;
     background-image: url("../latihan3/img/datas.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 -0px;
-    border-top: 5px solid salmon;
-    border-bottom: 5px solid lightskyblue;
 }
-.hero1{
-    height: 300px;
+.image2{
+    height: 350px;
     background-image: url("../latihan3/img/a.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 -100px;
-    border-top: 5px solid salmon;
-    border-bottom: 5px solid lightskyblue;
+    background-position: 0 -0px;
 }
 .content{
     padding: 20px;
+    font-family: 'Trebuchet MS';
+    line-height: 20px;
 }
 .content p {
-    margin-bottom: 20px;
     font-size: 14px;
 }
 .content h2{
@@ -193,20 +142,12 @@ body{
     font-weight: bold;
 }
 .content h3{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 .content h4{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
-}
-.content .penulis{
-    font-size: 11px;
-    margin-top: -5px;
-}
-.content .penulis a{
-    color: salmon;
-    text-decoration: none;
 }
 .footer{
     background-color: #333333;
