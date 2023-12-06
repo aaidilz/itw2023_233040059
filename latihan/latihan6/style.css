@@ -91,10 +91,10 @@ nav ul li a:hover{
         transform: translateY(-100%);
         transition: all 0.5s;
         opacity: 0;
-    } 
+    }   
     nav ul.slide{
-        transform: translateY(0);
-        opacity: 1;
+            transform: translateY(0);
+            opacity: 1;
     }
 }
 
