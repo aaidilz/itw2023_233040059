@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>AI Image</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Random Gallery</h2>
+                <p class="sub-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nesciunt?</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="after">random</h4>
+                <p class="before">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="after">random</h4>
+                <p class="before">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </header>
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox" name="" id="">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>AI Image Gallery</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="services">
+            <div class="service">
+                <div class="icon">💻</div>
+                <h3>Create Random Image</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi non consequatur qui asperiores nisi nesciunt voluptatum eligendi soluta, unde, totam harum alias blanditiis, fugiat praesentium atque ipsa sint consectetur fugit?</p>
+            </div>
+            <div class="service">
+                <div class="icon">🎓</div>
+                <h3>Learn HTML</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi non consequatur qui asperiores nisi nesciunt voluptatum eligendi soluta, unde, totam harum alias blanditiis, fugiat praesentium atque ipsa sint consectetur fugit?</p>
+            </div>
+            <div class="service">
+                <div class="icon">🤖</div>
+                <h3>Join Comunity</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi non consequatur qui asperiores nisi nesciunt voluptatum eligendi soluta, unde, totam harum alias blanditiis, fugiat praesentium atque ipsa sint consectetur fugit?</p>
+            </div>
+        </section>
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://source.unsplash.com/random/201x201" alt="">
+            <img src="https://source.unsplash.com/random/202x202" alt="">
+            <img src="https://source.unsplash.com/random/203x203" alt="">
+            <img src="https://source.unsplash.com/random/204x204" alt="">
+            <img src="https://source.unsplash.com/random/205x205" alt="">
+            <img src="https://source.unsplash.com/random/206x206" alt="">
+            <img src="https://source.unsplash.com/random/207x207" alt="">
+            <img src="https://source.unsplash.com/random/208x208" alt="">
+            <img src="https://source.unsplash.com/random/209x209" alt="">
+            <img src="https://source.unsplash.com/random/2010x2010" alt="">
+        </section>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+            
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>
